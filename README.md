@@ -22,16 +22,13 @@ This is a Flutter application that uses MediaPipe's hand detection and landmark 
 
 
 ## dependencies:
-  # flutter:
-    sdk: flutter 
-    
-  camera: ^0.10.5+9
-  
-  tflite_flutter: ^0.10.4
-  
-  tflite_flutter_helper: ^0.3.1
-  
-  image: ^4.2.0
+    flutter:
+       sdk: flutter
+    camera: ^0.9.8+1
+    tflite_flutter: ^0.9.0
+    tflite_flutter_helper: ^0.3.0
+    image: ^3.0.2
+    cupertino_icons: ^1.0.8
 
 Run:
 bash
