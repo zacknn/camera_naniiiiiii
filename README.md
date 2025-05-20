@@ -19,7 +19,7 @@ This is a Flutter application that uses MediaPipe's hand detection and landmark 
 
     Ensure pubspec.yaml is updated with the following dependencies:
     yaml
-'''bash
+
 ## dependencies:
   # flutter:
     sdk: flutter
@@ -27,7 +27,7 @@ This is a Flutter application that uses MediaPipe's hand detection and landmark 
   tflite_flutter: ^0.10.4
   tflite_flutter_helper: ^0.3.1
   image: ^4.2.0
-'''
+
 Run:
 bash
 
