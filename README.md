@@ -20,12 +20,17 @@ This is a Flutter application that uses MediaPipe's hand detection and landmark 
     Ensure pubspec.yaml is updated with the following dependencies:
     yaml
 
+
 ## dependencies:
   # flutter:
-    sdk: flutter
+    sdk: flutter 
+    
   camera: ^0.10.5+9
+  
   tflite_flutter: ^0.10.4
+  
   tflite_flutter_helper: ^0.3.1
+  
   image: ^4.2.0
 
 Run:
