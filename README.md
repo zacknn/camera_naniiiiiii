@@ -50,20 +50,13 @@ bash
 
 4. Configure Permissions
 
-    Android: Add the following to android/app/src/main/AndroidManifest.xml:
+   ## Android: Add the following to android/app/src/main/AndroidManifest.xml:
     xml
 
-<uses-permission android:name="android.permission.CAMERA" />
-<uses-permission android:name="android.permission.RECORD_AUDIO" />
-<uses-feature android:name="android.hardware.camera" android:required="true" />
-<uses-feature android:name="android.hardware.microphone" android:required="true" />
-iOS: Add the following to ios/Runner/Info.plist:
-xml
-
-    <key>NSCameraUsageDescription</key>
-    <string>App needs camera access to detect hand gestures</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>App needs microphone access for potential voice features</string>
+        <uses-permission android:name="android.permission.CAMERA" />
+        <uses-permission android:name="android.permission.RECORD_AUDIO" />
+        <uses-feature android:name="android.hardware.camera" android:required="true" />
+        <uses-feature android:name="android.hardware.microphone" android:required="true" />
 
 5. Build and Run
 
